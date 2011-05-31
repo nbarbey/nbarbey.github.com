@@ -13,9 +13,6 @@ title: Nicolas Barbey
     <h2><a href="{{ post.url }}">{{post.title}}</a></h2>
     <span class="date">{{ post.date | date:"%B %d, %Y" }}</span>
     {{ post.content }}
-    <div class="view_comments_link">
-      <a href="{{ post.url }}#disqus_thread">View Comments</a> <br />
-    </div>
   </div>
   {% endfor %}
   <div id="related">
