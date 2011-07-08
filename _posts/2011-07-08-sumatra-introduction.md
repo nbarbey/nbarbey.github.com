@@ -334,3 +334,10 @@ You can also look at results from the command line :
 {% highlight bash %}
 smt list
 {% endhighlight %}
+
+One very nice feature of Sumatra is the possibility to change the
+configuration file parameters from the cli : 
+
+{% highlight bash %}
+smt run --executable=python --main=pacs_rls.py mapper_rls.hyper=0.1 pacs_rls.cfg
+{% endhighlight %}
