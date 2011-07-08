@@ -17,8 +17,10 @@ arrays = [np.ones(ashape, dtype=dtype) for dtype in dtypes]
 # test algorithm against different data types
 out_arrays = [my_algorithm(arr) for arr in arrays]
 # measure the difference
-print("cumulated difference 16bits vs 64 bits %f" % np.sum(np.abs(out_arrays[0] - out_arrays[-1])))
-print("cumulated difference 32bits vs 64 bits %f" % np.sum(np.abs(out_arrays[1] - out_arrays[-1])))
+diff16 = np.sum(np.abs(out_arrays[0] - out_arrays[-1]))
+diff32 = np.sum(np.abs(out_arrays[1] - out_arrays[-1]))
+print("cumulated difference 16bits vs 64 bits %f" % diff16)
+print("cumulated difference 32bits vs 64 bits %f" % diff32)
 {% endhighlight %}
 
 Changing the data dtype from 64 bits to 32 bits can save your code a

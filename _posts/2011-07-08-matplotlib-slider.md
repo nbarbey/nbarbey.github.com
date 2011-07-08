@@ -43,7 +43,8 @@ def cube_show_slider(cube, axis=2, **kwargs):
 
     def update(val):
         ind = int(slider.val)
-        s = [slice(ind, ind + 1) if i == axis else slice(None) for i in xrange(3)]
+        s = [slice(ind, ind + 1) if i == axis else slice(None)
+                 for i in xrange(3)]
         im = cube[s].squeeze()
         l.set_data(im, **kwargs)
         fig.canvas.draw()
