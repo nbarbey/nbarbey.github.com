@@ -307,8 +307,30 @@ pacs_rls.py pacs_rls.cfg
 Or using sumatra :
 
 {% highlight bash %}
+smt init pacs_rls
 smt run --executable=python --main=pacs_rls.py pacs_rls.cfg
 {% endhighlight %}
 
 Note that the files you use with Sumatra should be under revision
-control, with Mercurial for instance.
+control, with Mercurial for instance. This can be done like this
+
+{% highlight bash %}
+hg init
+hg add pacs_rls.py pacs_rls.cfg
+hg commit
+{% endhighlight %}
+
+Also, you should have a Data subdirectory to store results.
+
+Finally, to see the results of your experiments, you can take a look
+at them using the built-in web interface :
+
+{% highlight bash %}
+smtweb
+{% endhighlight %}
+
+You can also look at results from the command line :
+
+{% highlight bash %}
+smt list
+{% endhighlight %}
