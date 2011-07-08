@@ -262,7 +262,7 @@ Options:
 
 The configuration file would look like this :
 
-{% highlight %}
+{% highlight ini%}
 
 [main]
 filenames=frames_blue.fits
@@ -300,13 +300,13 @@ maxiter=300
 
 With this code, you can do from the command line :
 
-{% highlight %}
+{% highlight bash %}
 pacs_rls.py pacs_rls.cfg
 {% endhighlight %}
 
 Or using sumatra :
 
-{% highlight %}
+{% highlight bash %}
 smt run --executable=python --main=pacs_rls.py pacs_rls.cfg
 {% endhighlight %}
 
