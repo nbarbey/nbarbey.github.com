@@ -6,8 +6,8 @@ title: About
 About
 ========
 
-* I am 33 years old developer (mostly C/Python)
-* Previously I worked as a  scientist in Astrophysics and Signal Processing.
+* I am 34 years old developer (mostly C/Python)
+* Previously I worked as a scientist in Astrophysics and Signal Processing.
 * I share here the codes I have been developing for my work.
 * You can email me at <a href="mailto:nicolas.a.barbey@gmail.com">nicolas.a.barbey@gmail.com</a>   
    
