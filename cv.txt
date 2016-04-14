@@ -1,4 +1,4 @@
-Développeur Python Full-Stack
+Développeur C/Python Linux
 Nicolas Barbey
 
 
@@ -69,4 +69,4 @@ Anglais
 
   nicolas.a.barbey@gmail.com • +33 6 22 61 33 94 • 34 ans
   36 rue du maréchal Foch – 95120 Ermont
-  version pdf • version html
+  version pdf • version html version docx version texte
